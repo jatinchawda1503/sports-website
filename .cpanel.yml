@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cherelzv/sports.creativenestindia.com
+    - /bin/cp index.html $DEPLOYPATH
