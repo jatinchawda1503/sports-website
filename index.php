@@ -9,14 +9,30 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <?php include("./includes/styles.php");?>
+
 </head>
 
 
 <body>
 
+<!-----------------------------------------------
+                    Header 
+------------------------------------------------->
+
+<?php include("./components/header/header.php");?>
+
+<!-----------------------------------------------
+                    Banner
+------------------------------------------------->
+
+<?php include("./components/banner/banner.php");?>
 
 
 
+
+
+<?php include("./includes/scripts.php");?>
 </body>
 
 </html>
