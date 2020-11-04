@@ -29,8 +29,10 @@
 <?php include("./components/banner/banner.php");?>
 
 
-
-
+<!-----------------------------------------------
+                    Sponsers
+------------------------------------------------->
+<?php include("./components/sponsers/sponsers.php");?>
 
 <?php include("./includes/scripts.php");?>
 </body>
