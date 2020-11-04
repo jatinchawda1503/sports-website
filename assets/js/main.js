@@ -140,32 +140,74 @@
   });
 
 
+   // sponser carousel
   $(document).ready(function(){
     $("#logoCarousel").owlCarousel({
         loop:true,
         margin:10,
         autoHeight: true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
         responsiveClass:true,
+        loop:true,
+        dots:true,
+        nav:false,
         responsive:{
             0:{
                 items:1,
-                nav:true,
-                autoHeight: true
+                autoHeight: true,
+                dots:false
             },
             600:{
                 items:3,
-                nav:false,
                 autoHeight: true,
             },
             1000:{
                 items:5,
-                nav:true,
-                loop:false,
                 autoHeight: true
             }
         }
     });
   });
+
+    //FAQ AOS
+
+    // Init AOS
+    function aos_init() {
+      AOS.init({
+        duration: 1000,
+        easing: "ease-in-out-back",
+        once: true
+      });
+    }
+    $(window).on('load', function() {
+      aos_init();
+    });
+
+    // footer marquee
+    function scroller() {
+    
+      var scroll = $('.scroll');// Sets the div with a class of scroll as a variable
+      
+      var height = scroll.height(); // Gets the height of the scroll div
+      
+      var topAdj = -height-10; /* '-height' turns the height                   of the UL into a negative #, 
+                   * '- 50' subtracts an extra 50 pixels from the height of 
+                   * the div so that it moves the trail of the UL higher to 
+                   * the top of the div before the animation                ends
+                   */
+      
+      scroll.animate({
+        'top' : [topAdj, 'linear'] 
+      }, 8000, function(){
+        scroll.css('top', 80); //resets the top position of the Ul for the next cycle
+        scroller(); // Recalls the animation cycle to begin.
+      });}
+      
+      $(document).ready(function(){
+      scroller();
+      });
 
 
 })(jQuery);

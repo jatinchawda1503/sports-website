@@ -9,8 +9,8 @@
     </div>
         <div class="container">
         <div class="row">
-            <div id="logoCarousel" class="carousel slide carousel-fade d-flex" data-ride="carousel">
-                <div class="logo-inner">
+            <div id="logoCarousel" class="owl-carousel owl-theme" data-ride="carousel">
+                <div class="logo-inner active">
                     <img src="../assets/img/logo/1.png">
                 </div> 
                 <div class="logo-inner">

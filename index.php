@@ -28,11 +28,26 @@
 
 <?php include("./components/banner/banner.php");?>
 
+<!-----------------------------------------------
+                    About Us
+------------------------------------------------->
+<?php include("./components/about/about-front.php");?>
+
 
 <!-----------------------------------------------
                     Sponsers
 ------------------------------------------------->
 <?php include("./components/sponsers/sponsers.php");?>
+
+<!-----------------------------------------------
+                    FAQ
+------------------------------------------------->
+<?php include("./components/faq/faq.php");?>
+
+<!-----------------------------------------------
+                    footer
+------------------------------------------------->
+<?php include("./components/footer/footer.php");?>
 
 <?php include("./includes/scripts.php");?>
 </body>
