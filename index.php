@@ -29,6 +29,12 @@
 <?php include("./components/banner/banner.php");?>
 
 <!-----------------------------------------------
+                    Latest Events
+------------------------------------------------->
+
+<?php include("./components/events/latest-events.php");?>
+
+<!-----------------------------------------------
                     About Us
 ------------------------------------------------->
 <?php include("./components/about/about-front.php");?>
