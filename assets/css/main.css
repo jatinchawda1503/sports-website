@@ -631,8 +631,8 @@ a {
   color: #fff;
 }
 
-.event-flag {
-  width: 30px;
+.event-flag{
+  width: 30px !important;
 }
 .feature-event-img{
   width: 100%;

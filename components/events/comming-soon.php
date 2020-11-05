@@ -1,13 +1,13 @@
-<!-- ======= Latest Events Section ======= -->
+<!-- ======= Comming Events Section ======= -->
 <section class="latest-events section-bg">
 <div class="col-lg-12 col-md-12 col-sm-12">
     <div class="row justify-content-center align-items-center">
             <div class="section-title">
-                <h2>Events</h2>
+                <h2>Up-Coming Events</h2>
             </div>
     </div>
         <div class="container">
-        <div class="row justify-content-center align-items-stretch flex_event owl-carousel owl-theme" id="eventCarousel">
+        <div class="row justify-content-center align-items-stretch flex_event">
                 <div class="events_flex_card">
                         <a href="/event-1" class="featured-card featured-card-hover event">
                             <div class="featured-card-media-top text-center">

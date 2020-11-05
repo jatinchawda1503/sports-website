@@ -35,6 +35,12 @@
 <?php include("./components/events/latest-events.php");?>
 
 <!-----------------------------------------------
+                    Comming Events
+------------------------------------------------->
+
+<?php include("./components/events/comming-soon.php");?>
+
+<!-----------------------------------------------
                     About Us
 ------------------------------------------------->
 <?php include("./components/about/about-front.php");?>
