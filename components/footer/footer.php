@@ -63,3 +63,7 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+
+  <?php include("back-to-top.php")?>
+
+  <?php include("floating-form.php")?>
