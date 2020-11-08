@@ -1,7 +1,12 @@
 <!-- ======= About Section ======= -->
-<section class="about mask" style="background-image: url('assets/img/banner-1.jpg');">
-<div class="col-lg-12 col-md-12 col-sm-12">
-    <div class="row justify-content-start align-items-center">
+<section class="about">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-4 col-md-4 col-sm-12">
+    <img src="assets/img/logo.png" class="img-fluid">
+</div>
+<div class="col-lg-8 col-md-8 col-sm-12">
+    <div class="row justify-content-center align-items-center">
             <div class="section-title">
                 <h2>Who We Are</h2>
             </div>
@@ -16,5 +21,7 @@
            
         </div>   
         </div>
+</div>
+</div>
 </div>
 </section>

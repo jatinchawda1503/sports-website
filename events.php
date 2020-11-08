@@ -22,34 +22,23 @@
 
 <?php include("./components/header/header.php");?>
 
-<!-----------------------------------------------
-                    Banner
+  <!-----------------------------------------------
+                    Events Banner
 ------------------------------------------------->
+<?php include("./components/events/events-banner.php");?>
 
-<?php include("./components/banner/banner.php");?>
-
-<!-----------------------------------------------
-                    Category card 
-------------------------------------------------->
-<?php include("./components/category/category-card.php");?>
- 
-<!-----------------------------------------------
-                    Latest Events 
-------------------------------------------------->
-<?php include("./components/events/latest-events.php");?>
-
-<!-----------------------------------------------
-                    Comming Events
-------------------------------------------------->
-
-<?php include("./components/events/comming-soon.php");?>
+<div clas="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12">
 
 
-<!-----------------------------------------------
-                    About Us
-------------------------------------------------->
-<?php include("./components/about/about-front.php");?>
+      
 
+
+
+        </div>
+    </div>
+</div>
 
 <!-----------------------------------------------
                     Sponsers
