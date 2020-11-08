@@ -27,6 +27,11 @@
 ------------------------------------------------->
 <?php include("./components/events/events-banner.php");?>
 
+
+<!-----------------------------------------------
+                    Events Banner
+------------------------------------------------->
+
 <div clas="container">
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12">

@@ -1485,15 +1485,19 @@ ul li{
   background-clip: content-box;
   background-size: cover;
   position: relative;
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 
 .events-banner:before {
-  content: " ";
+  content: "";
   width: 100%;
-  height: 120%;
+  height: 100%;
   background: inherit;
   position: absolute;
-  top: 10px;
+  top: 0;
   box-shadow: inset 0 0 0 200px rgba(125,125,125,.3);
   filter: blur(20px);
 }
@@ -1570,8 +1574,60 @@ ul li{
   margin: 0;
 
 }
+.action{
+  margin-top: 110px;
+}
 
 .event-img{
   width: 100%;
   object-fit: cover;
+  max-height: 400px;
+}
+
+@media only screen and (max-width: 480px) {
+  .event-img{
+   display: none;
+  }
+
+  .events-inner {
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dl {
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #45494e;
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 35%;
+  margin-top: 10px;
+}
+
+.dl p {
+  color: #ff9933;
+  font-size: 20px;
+  width: 10%;
+  margin: 0;
+  margin: 0 5px 0;
+}
+
+.action{
+  margin: 0;
+}
+
+}
+
+.events-inner{
+ overflow: hidden;
+background-color: #eee;
+z-index: 1;
 }

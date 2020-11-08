@@ -1,12 +1,12 @@
-<section class="events-banner" style="background-image:url('../assets/img/banner-1.jpg')">
+<div class="events-banner" style="background-image:url('../assets/img/banner-1.jpg')">
 
  <div class="events-inner">  
-    <div class="container">
-        <div class="row justify-content-center align-items-start">
+    <div class="container" >
+        <div class="row justify-content-center align-items-start" >
 
                 <div class="col-lg-4 col-md-4 col-sm-12 p-0">
 
-                <div class="events-card-body">
+                    <div class="events-card-body">
                             
                                 <ul class="dates mt-0">
                                     <li class="event-date-box">
@@ -50,12 +50,21 @@
                 </div>
                 
                 <div class="col-lg-8 col-md-8 col-sm-12 p-0">
-                        <img src="../assets/img/banner-1.jpg" alt="FINIS Hatta Aquathlon" class='event-img'>
-                               
-                </div>      
+                        <img src="../assets/img/banner-1.jpg" alt="" class='event-img'>             
+                </div>
+
+
+               
+
+</div>
+                
+                
+
+
+
         </div>
 
     </div>
 </div>
    
-</section>
+</div>
