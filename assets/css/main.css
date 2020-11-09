@@ -7,6 +7,7 @@ body{
 a {
     color: #ff9933;
     touch-action: manipulation;
+    font-family: 'PT Sans',sans-serif;
   }
   
   a:hover {
@@ -1630,4 +1631,51 @@ ul li{
  overflow: hidden;
 background-color: #eee;
 z-index: 1;
+}
+
+
+/* Tabs */
+
+.tabs {
+  max-width: 100%;
+  margin-top: 50px;
+}
+.tabs-nav {
+ display:flex;
+}
+.tabs-nav li{
+  padding-left: 50px;
+}
+
+.tabs-nav li:first-child a {
+  border-right: 0;
+  border-top-left-radius: 6px;
+}
+.tabs-nav li:last-child a {
+  border-top-right-radius: 6px;
+}
+
+.tabs-nav li a{
+  display: block;
+    padding: 5px 0;
+    color: #666a73;
+    border-bottom: 2px solid transparent;
+    font-size: 1  rem;
+    text-transform: uppercase;
+    text-align: center;
+    touch-action: manipulation;
+}
+.tab-active a {
+  color: #ff9933 !important;
+  border-color: #ff9933 !important;
+  transition: color .1s ease-in-out;
+}
+.tabs-stage {
+  border: 1px solid #cecfd5;
+  border-radius: 0 0 6px 6px;
+  border-top: 0;
+  clear: both;
+  padding: 24px 30px;
+  position: relative;
+  top: -1px;
 }

@@ -29,14 +29,17 @@
 
 
 <!-----------------------------------------------
-                    Events Banner
+                    Events content
 ------------------------------------------------->
-
-<div clas="container">
+<div class="section-bg">
+<div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12">
 
-
+    <!-----------------------------------------------
+                    Events Tabs
+------------------------------------------------->
+<?php include("./components/events/events-tabs.php");?>
       
 
 
@@ -44,7 +47,7 @@
         </div>
     </div>
 </div>
-
+</div>
 <!-----------------------------------------------
                     Sponsers
 ------------------------------------------------->
