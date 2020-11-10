@@ -11,11 +11,11 @@
           <div class="carousel-item active">
               <div class="carousel-image" style="background-image: url('assets/img/banner-1.jpg');">
               </div>
-            <div class="carousel-events">
+            <div class="carousel-events p-bg">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Event Name</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam.</p>
+                <h2 class="animate__animated animate__fadeInDown">Running</h2>
+                <p class="animate__animated animate__fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                 <h4 class="animate__animated animate__fadeInUp date-title">12/12/12</h4>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
@@ -27,11 +27,11 @@
           <div class="carousel-item">
               <div class="carousel-image" style="background-image: url('assets/img/banner-2.jpg');">
               </div>
-            <div class="carousel-events">
+            <div class="carousel-events s-bg">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Event Name</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam.</p>
+                <h2 class="animate__animated animate__fadeInDown">Swmming</h2>
+                <p class="animate__animated animate__fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                 <h4 class="animate__animated animate__fadeInUp date-title">12/12/12</h4>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>

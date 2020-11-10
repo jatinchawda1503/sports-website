@@ -1,5 +1,5 @@
 <!-- ======= Latest Events Section ======= -->
-<section class="latest-events section-bg">
+<section class="latest-events ">
 <div class="col-lg-12 col-md-12 col-sm-12">
     <div class="row justify-content-center align-items-center">
             <div class="section-title">

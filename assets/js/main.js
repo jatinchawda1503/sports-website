@@ -203,6 +203,39 @@
     });
   });
 
+  //TeamCarousel
+
+    $(document).ready(function(){
+      $("#TeamCarousel").owlCarousel({
+          loop:true,
+          margin:30,
+          autoHeight: true,
+          autoplay:true,
+          autoplayTimeout:5000,
+          autoplayHoverPause:true,
+          responsiveClass:true,
+          loop:true,
+          dots:true,
+          nav:false,
+          slideBy:1,
+          responsive:{
+              0:{
+                  items:1,
+                  autoHeight: true,
+                  dots:false
+              },
+              600:{
+                  items:3,
+                  autoHeight: true,
+              },
+              1000:{
+                  items:3,
+                  autoHeight: true
+              }
+          }
+      });
+    });
+
     //FAQ AOS
 
     // Init AOS

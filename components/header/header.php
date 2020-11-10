@@ -3,7 +3,7 @@
 
 <!-- ======= Header ======= -->
 <header id="header">
-    <div class="container">
+    <div class="header-container">
 
       <div class="logo float-left">
         <!-- <h1 class="text-light"><a href="/"><span>Sports Website</span></a></h1> -->
@@ -11,11 +11,10 @@
         <a href="/"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
-      <nav class="nav-menu float-right d-none d-lg-block">
+      <nav class="nav-menu d-none d-lg-flex justify-content-end ">
         <ul>
           <li class="active"><a href="/">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
           <li class="drop-down"><a href="">Events</a>
             <ul>
               <li><a href="#">Drop down 1</a></li>
@@ -34,10 +33,17 @@
             </ul>
           </li>
           <li><a href="#portfolio">My Account</a></li>
-          <li><a href="#team">Team</a></li>
+          
           
           <li><a href="#contact">Contact Us</a></li>
+
         </ul>
+
+
+        <div class="login-info d-flex justify-content-center align-items-center">
+          <button class="btn reg-btn s-btn" href="javascript:void(0);">Login</button>
+          <button class="btn reg-btn p-btn" href="javascript:void(0);">Register</button>  
+      </div>
       </nav><!-- .nav-menu -->
 
     </div>

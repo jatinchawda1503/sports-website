@@ -25,7 +25,7 @@
   <!-----------------------------------------------
                     Events Banner
 ------------------------------------------------->
-<?php include("./components/events/events-banner.php");?>
+<?php include("./components/events/events-inner/events-banner.php");?>
 
 
 <!-----------------------------------------------
@@ -36,15 +36,24 @@
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12">
 
-    <!-----------------------------------------------
-                    Events Tabs
-------------------------------------------------->
-<?php include("./components/events/events-tabs.php");?>
+              <!-----------------------------------------------
+                              Events Tabs
+          ------------------------------------------------->
+          <?php include("./components/events/events-inner/events-tabs.php");?>
       
+              </div>
 
+              <div class="col-lg-4 col-md-4 col-sm-12">
 
+               <!-----------------------------------------------
+                                    Events Tabs
+                ------------------------------------------------->
+                <?php include("./components/events/events-inner/event-sidebar.php");?>
 
-        </div>
+              
+
+              </div>
+        
     </div>
 </div>
 </div>
