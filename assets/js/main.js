@@ -184,16 +184,18 @@
         responsiveClass:true,
         loop:true,
         dots:true,
-        nav:false,
+        nav:true,
         responsive:{
             0:{
                 items:1,
                 autoHeight: true,
-                dots:false
+                dots:false, 
+                nav:false
             },
             600:{
                 items:3,
                 autoHeight: true,
+                nav:false
             },
             1000:{
                 items:3,
