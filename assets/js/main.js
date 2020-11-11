@@ -139,6 +139,35 @@
     $(this).find('p, .btn-get-started').addClass('animate__animated animate__fadeInUp');
   });
 
+  //catCarousel
+      $(document).ready(function(){
+        $("#catCarousel").owlCarousel({
+            loop:false,
+            margin:10,
+            autoHeight: true,
+            autoplay:false,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true,
+            responsiveClass:true,
+            dots:false,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1,
+                    autoHeight: true,
+                    dots:false
+                },
+                600:{
+                    items:3,
+                    autoHeight: true,
+                },
+                1000:{
+                    items:5,
+                    autoHeight: true
+                }
+            }
+        });
+      });
 
    // sponser carousel
   $(document).ready(function(){

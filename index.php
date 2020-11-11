@@ -31,7 +31,7 @@
 <!-----------------------------------------------
                     Category card 
 ------------------------------------------------->
-<?php include("./components/category/category-card.php");?>
+<?php include("./components/category/category.php");?>
  
 <!-----------------------------------------------
                     Latest Events 
@@ -42,7 +42,7 @@
                     Comming Events
 ------------------------------------------------->
 
-<?php include("./components/events/comming-soon.php");?>
+<?php include("./components/events/upcomming-events.php");?>
 
 
 <!-----------------------------------------------
