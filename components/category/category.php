@@ -1,10 +1,10 @@
-<div class="cat-events py-4">
+<div class="cat-events py-3">
 
-    <div class="d-flex justify-content-center align-items-center">
-        <div class="col-xl-3 col-md-4 col-sm-12">
-            Event by Category
+    <div class="row m-0 justify-content-center align-items-center">
+        <div class="col-xl-2 col-md-2 col-sm-12">
+            <h3 class="text-center">Events By Categories</h3>
         </div>    
-        <div class="col-xl-8 col-md-6 col-sm-12">
+        <div class="col-xl-8 col-md-6 col-sm-12 offset-0">
             
             <div class="category-inner owl-carousel owl-theme" id="catCarousel">
 
@@ -73,10 +73,49 @@
                         </div>
                     <!-- category single end -->
 
+                    <!-- category single -->
+                    <div class="cat-single">
+                            <a href="#">
+                            <div class="cat-img">
+                                <img src="https://images.unsplash.com/photo-1593786481097-cf281dd12e9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=60" alt="">
+                            </div>
+                            <div class="cat-title text-center">
+                                <h4>Table Tennis</h4>
+                            </div>
+                            </a>
+                        </div>
+                    <!-- category single end -->
+
+                    <!-- category single -->
+                    <div class="cat-single">
+                            <a href="#">
+                            <div class="cat-img">
+                                <img src="https://images.unsplash.com/photo-1553524229-2695bb76bce9?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=60" alt="">
+                            </div>
+                            <div class="cat-title text-center">
+                                <h4>Volly ball</h4>
+                            </div>
+                            </a>
+                        </div>
+                    <!-- category single end -->
+
+                    <!-- category single -->
+                    <div class="cat-single">
+                            <a href="#">
+                            <div class="cat-img">
+                                <img src="https://images.unsplash.com/photo-1518063319789-7217e6706b04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=60" alt="">
+                            </div>
+                            <div class="cat-title text-center">
+                                <h4>Basket Ball</h4>
+                            </div>
+                            </a>
+                        </div>
+                    <!-- category single end -->
+
             </div>
         </div> 
-        <div class="col-xl-1 col-md-1 col-sm-12">
-            <span class="d-flex text-center"><a href="">View All Category<br/><i class="icofont-circled-right"></i></a></span>
+        <div class="col-xl-1 col-md-1 col-sm-12 cat-link">
+        <a href="#"> <p>View All Category</p><span><i class="icofont-circled-right"></span></i></a>
            
         </div>  
 
