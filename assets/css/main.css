@@ -918,8 +918,8 @@ a {
 
 #eventCarousel .owl-prev:hover,#eventCarousel .owl-next:hover{
   background-color: #321E50 !important;
-    box-shadow: 0px 3px 12px #321E5044;
-    color: #fff;
+  box-shadow: 0px 3px 12px #321E5044;
+  color: #fff;
 }
 #eventCarousel button.owl-dot{
   background-color: #321e5077;
@@ -940,15 +940,28 @@ a {
 /*--------------------------------------------------------------
   # Upcomming Events
   --------------------------------------------------------------*/
- .comming-single{
-  height: calc(50vh - 30px);
+ .comming-events{
+   padding: 15px !important;
+   background-color: #f9f9f9;
+ }
+ 
+  .comming-single{
+  height: calc(60vh - 30px);
   width: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 3px 12px #FF993344;
+  position: relative;
  }
+
+ .comming-events::after{
+
+ }
+
 
   /*--------------------------------------------------------------
   # about
