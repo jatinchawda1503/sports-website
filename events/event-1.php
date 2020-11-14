@@ -9,7 +9,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <?php include("./includes/styles.php");?>
+  <?php include("./../includes/styles.php");?>
 
 </head>
 
@@ -20,12 +20,12 @@
                     Header 
 ------------------------------------------------->
 
-<?php include("./components/header/header.php");?>
+<?php include("./../components/header/header.php");?>
 
   <!-----------------------------------------------
                     Events Banner
 ------------------------------------------------->
-<?php include("./components/events/events-inner/events-banner.php");?>
+<?php include("./../components/events/events-inner/events-banner.php");?>
 
 
 <!-----------------------------------------------
@@ -39,7 +39,7 @@
               <!-----------------------------------------------
                               Events Tabs
           ------------------------------------------------->
-          <?php include("./components/events/events-inner/events-tabs.php");?>
+          <?php include("./../components/events/events-inner/events-tabs.php");?>
       
               </div>
 
@@ -48,7 +48,7 @@
                <!-----------------------------------------------
                                     Events Tabs
                 ------------------------------------------------->
-                <?php include("./components/events/events-inner/event-sidebar.php");?>
+                <?php include("./../components/events/events-inner/event-sidebar.php");?>
 
               
 
@@ -60,19 +60,19 @@
 <!-----------------------------------------------
                     Sponsers
 ------------------------------------------------->
-<?php include("./components/sponsers/sponsers.php");?>
+<?php include("./../components/sponsers/sponsers.php");?>
 
 <!-----------------------------------------------
                     FAQ
 ------------------------------------------------->
-<?php include("./components/faq/faq.php");?>
+<?php include("../components/faq/faq.php");?>
 
 <!-----------------------------------------------
                     footer
 ------------------------------------------------->
-<?php include("./components/footer/footer.php");?>
+<?php include("../components/footer/footer.php");?>
 
-<?php include("./includes/scripts.php");?>
+<?php include("../includes/scripts.php");?>
 </body>
 
 </html>

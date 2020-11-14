@@ -946,7 +946,7 @@ a {
  }
  
   .comming-single{
-  height: calc(60vh - 30px);
+  height: calc(45vh - 30px);
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -954,14 +954,94 @@ a {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  
+ }
+
+ .p-shadow{
+  box-shadow: 0px 8px 22px 5px #FF993344;
+ }
+
+ .s-shadow{
+  box-shadow: 0px 8px 22px 5px #321E5044;
+ }
+
+ .comming-single::before  {
+  background-image: linear-gradient(to right, #99999944 0%, rgba(0, 0, 0, 0.493) 100%);
+  border-radius: 4px;
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: 0.85;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.2s ease-in-out;
+  width: 100%;
+  z-index: 0;
+ }
+
+ .card_content{
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.comming-header{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.e-count {
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  min-width: 100px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  transition: box-shadow 0.3s, opacity 0.3s ease-in-out;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1;
+  text-align: center;
+} 
+
+#commingCarousel .owl-prev,#commingCarousel .owl-next{
+  position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 40px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px !important;
+    color: #f9f9f9 ;
+    box-shadow: 0px 3px 12px #321E5044;
+    border-radius: 4px;
+    top: calc(50%);
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+  
+#commingCarousel .owl-prev:hover,#commingCarousel .owl-next:hover{
+  background-color: #FF9933 !important;
   box-shadow: 0px 3px 12px #FF993344;
-  position: relative;
- }
+  color: #fff;
+}
 
- .comming-events::after{
+#commingCarousel .owl-prev{
+  left: 1%;
+}
 
- }
-
+#commingCarousel .owl-next{
+  right: 1%;
+}
+  
 
   /*--------------------------------------------------------------
   # about

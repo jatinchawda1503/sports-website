@@ -1,3 +1,4 @@
+<?php include('config.php')?>
 <!-- Favicons -->
 <link href="" rel="icon">
   <link href="" rel="apple-touch-icon">

@@ -12,7 +12,7 @@
 
                     <!-- Event Start -->
                 <div class="events_flex_card">
-                        <a href="/events.php" class="featured-card featured-card-hover event">
+                        <a href="/events/event-1.php" class="featured-card featured-card-hover event">
                             <div class="featured-card-media-top text-center">
                             <img src="https://images.unsplash.com/photo-1513276193780-64b881470da8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" data-src="/assets/img/banner-1.jpg" alt="" class="lazy initial loaded feature-event-img" data-was-processed="true">
                             </div>
@@ -34,7 +34,7 @@
 
                      <!-- Event Start -->
                 <div class="events_flex_card">
-                        <a href="/events.php" class="featured-card featured-card-hover event">
+                        <a href="/events/event-1.php" class="featured-card featured-card-hover event">
                             <div class="featured-card-media-top text-center">
                             <img src="https://images.unsplash.com/photo-1508087625439-de3978963553?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" data-src="/assets/img/banner-1.jpg" alt="" class="lazy initial loaded feature-event-img" data-was-processed="true">
                             </div>
@@ -56,7 +56,7 @@
 
                      <!-- Event Start -->
                 <div class="events_flex_card">
-                        <a href="/events.php" class="featured-card featured-card-hover event">
+                        <a href="/events/event-1.php" class="featured-card featured-card-hover event">
                             <div class="featured-card-media-top text-center">
                             <img src="https://images.unsplash.com/photo-1519315901367-f34ff9154487?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" data-src="/assets/img/banner-1.jpg" alt="" class="lazy initial loaded feature-event-img" data-was-processed="true">
                             </div>
@@ -79,7 +79,7 @@
 
                      <!-- Event Start -->
                 <div class="events_flex_card">
-                        <a href="/events.php" class="featured-card featured-card-hover event">
+                        <a href="/events/event-1.php" class="featured-card featured-card-hover event">
                             <div class="featured-card-media-top text-center">
                             <img src="https://images.unsplash.com/photo-1543756070-dd3109556b0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" data-src="/assets/img/banner-1.jpg" alt="" class="lazy initial loaded feature-event-img" data-was-processed="true">
                             </div>

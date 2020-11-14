@@ -169,6 +169,36 @@
         });
       });
 
+  //commingCarousel
+  $(document).ready(function(){
+    $("#commingCarousel").owlCarousel({
+        loop:true,
+        margin:10,
+        autoHeight: true,
+        autoplay:false,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        responsiveClass:true,
+        dots:false,
+        nav:true,
+        responsive:{
+            0:{
+                items:1,
+                autoHeight: true,
+                dots:false
+            },
+            600:{
+                items:1,
+                autoHeight: true,
+            },
+            1000:{
+                items:1,
+                autoHeight: true
+            }
+        }
+    });
+  });
+
    // sponser carousel
   $(document).ready(function(){
     $("#logoCarousel").owlCarousel({
