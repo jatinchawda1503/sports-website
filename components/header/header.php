@@ -14,7 +14,7 @@
       <nav class="nav-menu d-none d-lg-flex justify-content-end ">
         <ul>
           <li class="active"><a href="/">Home</a></li>
-          <li><a href="#about">About Us</a></li>
+          <li><a href="/about.php">About Us</a></li>
           <li class="drop-down"><a href="">Events</a>
             <ul>
               <li><a href="#">Drop down 1</a></li>
