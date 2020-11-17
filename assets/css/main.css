@@ -110,7 +110,7 @@ a {
     background-color: #ff9933;
   }
 
-  :focus{
+  button:focus,input:focus,textarea:focus{
     outline: none;
   }
 
@@ -646,6 +646,31 @@ a {
     }
   }
  
+/*--------------------------------------------------------------
+  # Category list 
+   --------------------------------------------------------------*/
+  
+   .list-img{
+     width: inherit;
+   }
+
+   .list-img img{
+     width: 100%;
+     object-fit: cover;
+   }
+
+   .list-content h3, .list-content p, .list-content button{
+     margin: 10px 0;
+   }
+
+   .bg-al{
+     background-color: #f9f9f9;
+     border-radius: 10px;
+   }
+
+   .list-content button,.list-content button:hover{
+     color: #fff;
+   }
 
 /*--------------------------------------------------------------
   # Category Card 
@@ -1567,6 +1592,7 @@ ul li{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-top: 8px;
+    padding-left: 10px;
 }
 
 
@@ -1592,7 +1618,7 @@ ul li{
 
 }
 #chat_body{
-    height: 250px;
+    height: 320px;
 }
 .chat_login p,.chat_body li, p, a{
     -webkit-animation: zoomIn .5s cubic-bezier(.42, 0, .58, 1);
@@ -1805,15 +1831,104 @@ ul li{
   color: #bbb;
 }
 
- .floating-form{position: relative;}
-.effect{border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent;}
-.effect ~ .focus-border{position: absolute; bottom: 0; left: 50%; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
-.effect:focus ~ .focus-border,
-.has-content.effect ~ .focus-border{width: 100%; transition: 0.4s; left: 0;}
-.effect ~ label{position: absolute; left: 0; width: 100%; top: 9px; color: #aaa; transition: 0.3s; z-index: -1; letter-spacing: 0.5px;}
-.effect:focus ~ label, .has-content.effect-17 ~ label{top: -16px; font-size: 12px; color: #3399FF; transition: 0.3s;}
 
 
+ .floating-form{position: relative;padding-bottom: 10px;}
+
+ .floating-form input:focus ~ label,.floating-form textarea:focus ~ label,.floating-form input:valid ~ label,.floating-form textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.floating-form .styled-input {
+  float: left;
+  width: 100%;
+  margin: 0.5rem 0;
+  position: relative;
+  border-radius: 4px;
+  border-bottom:1px solid #999
+}
+
+@media only screen and (max-width: 768px){
+  .floating-form .styled-input {
+      width:100%;
+  }
+}
+
+.floating-form  .styled-input label {
+  color: #999;
+  padding: .3rem 10px 1rem 10px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none; 
+}
+
+
+.floating-form  input,
+.floating-form textarea {
+  padding: 10px 10px 0;
+  border: 0;
+  width: 100%;
+  font-size: 15px;
+  color: #333;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.floating-form input:focus,
+.floating-form  textarea:focus { outline: 0; }
+
+.floating-form input:focus ~ span,
+.floating-form textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+.floating-form textarea {
+  width: 100%;
+}
+
+
+.floating-form .submit-btn {
+  padding: 7px 35px;
+  border-radius: 4px;
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  width: 100%;
+}
+
+.floating-form  .submit-btn:hover {
+  transform: translateY(1px);
+}
+
+@media (max-width: 768px) {
+  .floating-form  .submit-btn {
+      width:100%;
+      float: none;
+      text-align:center;
+  }
+}
+
+.floating-form  input[type=checkbox] + label {
+color: #ccc;
+font-style: italic;
+} 
+
+.floating-form input[type=checkbox]:checked + label {
+color: #f00;
+font-style: normal;
+}
 
 
 

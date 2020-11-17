@@ -115,7 +115,7 @@
             </div>
         </div> 
         <div class="col-xl-1 col-md-1 col-sm-12 cat-link">
-        <a href="#"> <p>View All Category</p><span><i class="icofont-circled-right"></span></i></a>
+        <a href="/categories.php"> <p>View All Category</p><span><i class="icofont-circled-right"></span></i></a>
            
         </div>  
 
