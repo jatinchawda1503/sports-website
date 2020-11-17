@@ -110,7 +110,7 @@ a {
     background-color: #ff9933;
   }
 
-  button:focus{
+  :focus{
     outline: none;
   }
 
