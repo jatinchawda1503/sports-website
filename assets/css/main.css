@@ -652,6 +652,7 @@ a {
   
    .list-img{
      width: inherit;
+     padding: 0.5rem;
    }
 
    .list-img img{
@@ -663,11 +664,16 @@ a {
      margin: 10px 0;
    }
 
-   .bg-al{
-     background-color: #f9f9f9;
-     border-radius: 10px;
+    .bg-al{
+      border-radius: 10px;
+    }
+    .bg-al:nth-child(even) {
+     background-color: #f9f9f9; 
    }
 
+   .list-card .bg-al:nth-child(odd) {
+    background-color: #f9f9f9; 
+  }
    .list-content button,.list-content button:hover{
      color: #fff;
    }
