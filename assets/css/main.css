@@ -215,10 +215,10 @@ a {
   /* padding: 0; */
 }
 #LoginModal .modal-content,#RegisterModal .modal-content{
-  background: transparent;
+  background: #fff;
   border: none;
 }
-#LoginModal .modal-header,#RegisterModal .modal-header{
+/* #LoginModal .modal-header,#RegisterModal .modal-header{
   border-bottom: none;
   border-radius: 0;  
   position: absolute;
@@ -226,7 +226,8 @@ a {
   right: 5px;
   width: 80px;
   z-index: 1;
-}
+} */
+
 #LoginModal .modal-body,#RegisterModal .modal-body{
   background-color: #fff;
   padding-top: 3rem;
@@ -1308,12 +1309,17 @@ color: #fff;
   width:300px;
   height: 300px;
   margin: 0 auto;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-main .person-image img{
-  max-width: 250px;
+  max-width: 200px;
   border-radius: 50%;
   box-shadow: 0px 3px 12px #321E5044;
+  
+}
 }
 
 

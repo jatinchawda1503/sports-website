@@ -25,7 +25,7 @@
             </div>
         
                 <button type="button" class="submit btn s-btn">Sign Up</button>
-                <p class="forgot-pass"><a href="javacript:void(0)">Forgot password?</a></p>
+              
                             <div class="social-login text-center">
                                 <h5>Signup With<h5>
                                     <hr>
