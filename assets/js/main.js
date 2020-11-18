@@ -387,4 +387,31 @@ $('.tabs-nav a').on('click', function(event){
 });
 
 
+//list-card-filters
+
+$(window).on('load', function() {
+  var catContainer = $('.cat-container').isotope({
+    itemSelector: '.cat-items',
+    layoutMode: 'vertical'
+  });
+
+$('#card-filters li').on('click', function() {
+  $("#card-filters li").removeClass('filter-active');
+  $(this).addClass('filter-active');
+
+  catContainer.isotope({
+    filter: $(this).data('filter')
+  });
+  aos_init();
+});
+});
+
+
+//login-Registration form
+
+$('.img__btn').on('click', function() {
+  $('.cont').toggleClass('s--signup');
+});
+
+
 })(jQuery);

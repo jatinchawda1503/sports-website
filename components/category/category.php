@@ -23,7 +23,7 @@
 
                      <!-- category single -->
                      <div class="cat-single">
-                            <a href="#">
+                            <a href="/categories/football.php">
                             <div class="cat-img">
                                 <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=60" alt="">
                             </div>
@@ -36,7 +36,7 @@
 
                     <!-- category single -->
                     <div class="cat-single">
-                            <a href="#">
+                            <a href="/categories/football.php">
                             <div class="cat-img">
                                 <img src="https://images.unsplash.com/photo-1490383559880-5003a7baa963?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=60" alt="">
                             </div>
@@ -49,7 +49,7 @@
 
                     <!-- category single -->
                     <div class="cat-single">
-                            <a href="#">
+                            <a href="/categories/football.php">
                             <div class="cat-img">
                                 <img src="https://images.unsplash.com/photo-1600679472829-3044539ce8ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=60" alt="">
                             </div>
@@ -62,7 +62,7 @@
 
                      <!-- category single -->
                      <div class="cat-single">
-                            <a href="#">
+                            <a href="/categories/football.php">
                             <div class="cat-img">
                                 <img src="https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=60" alt="">
                             </div>
@@ -75,7 +75,7 @@
 
                     <!-- category single -->
                     <div class="cat-single">
-                            <a href="#">
+                            <a href="/categories/football.php">
                             <div class="cat-img">
                                 <img src="https://images.unsplash.com/photo-1593786481097-cf281dd12e9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=60" alt="">
                             </div>
@@ -88,7 +88,7 @@
 
                     <!-- category single -->
                     <div class="cat-single">
-                            <a href="#">
+                            <a href="/categories/football.php">
                             <div class="cat-img">
                                 <img src="https://images.unsplash.com/photo-1553524229-2695bb76bce9?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=60" alt="">
                             </div>
@@ -101,7 +101,7 @@
 
                     <!-- category single -->
                     <div class="cat-single">
-                            <a href="#">
+                            <a href="/categories/football.php">
                             <div class="cat-img">
                                 <img src="https://images.unsplash.com/photo-1518063319789-7217e6706b04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=60" alt="">
                             </div>
